@@ -3,12 +3,12 @@ spring:
   data:
       elasticsearch:
         cluster-name: es-cluster
-        cluster-nodes: 47.107.168.169:9300
+        cluster-nodes: 127.0.0.1:9300
   rabbitmq:
-      host: 47.112.202.147
+      host: 127.0.0.1
       username: guest
       password: guest
       port: 5672
   redis:
-      host: 47.112.202.147
+      host: 127.0.0.1
 #debug: true
